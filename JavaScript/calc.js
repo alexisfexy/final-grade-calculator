@@ -11,11 +11,11 @@ form.addEventListener('submit', function() {
         alert("Please enter all fields.")  }
     else {
         
-        var have = current.value;
-        var want = desired.value;
-        var weight = finalWeight.value;
-        
-        
+        var current_grade = current.value;
+        var goal = desired.value;
+        var final_weight = finalWeight.value;
+        var result = 
+        ((goal - current_grade) * (100 - final_weight)) / final_weight
     }
         
         
