@@ -11,19 +11,53 @@
     <title>Final Grade Calculator</title>
   </head>
   <body>
+      <br>
+      <div class="card text-center" id ="final-grade-form">
+        <h5 class="card-header">Final Grade Calculator</h5>
+        <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">This calculator determines what
+                you need to score on your final for your desired grade. </h6>
+    
+            <form id="%Calc">
+                You currently have: <input type="text" id="currentGrade"> % in the class. <br><br>
+                You want to end the class with (at least) a: 
+                <input type="text" id="desiredGrade"> % in the class.<br><br> 
+                Your final is worth: 
+                <input type="text" id="finalWeight"> % of your grade. <br><br>
+                <!-- <input type="submit" value="Calculate">  -->
+            </form>
+            <button onclick="calculateGrade()" class="btn btn-primary btn-lg"> Calculate </button> 
+           
+        
 
-    <h1>Final Grade Calculator</h1>
-    <p> This calculator determines what you need to score on your final for your desired grade.</p>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+<!-- 
+    <h1>Final Grade Calculator</h1> 
+    <h6> This calculator determines what you need to score on your final for your desired grade.</h2> <br>
     <form id="%Calc">
         You currently have: <input type="text" id="currentGrade"> % in the class. <br><br>
         You want to end the class with (at least) a: 
         <input type="text" id="desiredGrade"> % in the class.<br><br> 
         Your final is worth: 
         <input type="text" id="finalWeight"> % of your grade. <br><br>
-        <!-- <input type="submit" value="Calculate">  -->
-    </form>
-    <button onclick="calculateGrade()"> Calculate </button> 
     
+    </form>
+    <button onclick="calculateGrade()" class="btn btn-primary btn-lg"> Calculate </button> 
+   
+ -->
+
+
+
+
     <!-- <h3 id="resultField"></h3> -->
     
     <script type="text/javascript" src="JavaScript/calc.js"></script>
